@@ -38,6 +38,6 @@ public class PlotterAdapter implements IPlotter
     @Override
     public String toString()
     {
-        return "Buggy Simulator";
+        return "Plotter Adapter Simulator";
     }
 }
