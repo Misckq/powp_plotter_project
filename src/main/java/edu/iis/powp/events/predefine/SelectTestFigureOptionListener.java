@@ -30,6 +30,12 @@ public class SelectTestFigureOptionListener implements ActionListener
         {
             FiguresJoe.figureScript2(Application.getComponent(DriverManager.class).getCurrentPlotter());
         }
+        else if(this.FiguresJoeExample.equals("Test comm"))
+        {
+
+            
+            
+        }
         
     }
 }
