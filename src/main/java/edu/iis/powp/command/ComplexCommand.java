@@ -3,7 +3,6 @@ package edu.iis.powp.command;
 import edu.iis.client.plottermagic.IPlotter;
 import java.util.List;
 
-
 public class ComplexCommand implements PlotterCommand {
     List<PlotterCommand> command;
     public ComplexCommand(List<PlotterCommand> command) {
