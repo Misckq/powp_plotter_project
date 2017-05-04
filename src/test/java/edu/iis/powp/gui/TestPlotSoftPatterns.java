@@ -1,3 +1,4 @@
+
 package edu.iis.powp.gui;
 
 import java.awt.EventQueue;
@@ -34,11 +35,16 @@ public class TestPlotSoftPatterns
 
 	    SelectTestFigureOptionListener selectFirstTestFigureOptionListener = new SelectTestFigureOptionListener("Figure Joe 1");
             SelectTestFigureOptionListener selectSecondTestFigureOptionListener1 = new SelectTestFigureOptionListener("Figure Joe 2");
-            SelectTestFigureOptionListener selectSecondTestFigureOptionListener2 = new SelectTestFigureOptionListener("Test comm");
+            
+            SelectTestFigureOptionListener selectSecondTestFigureOptionListener2 = new SelectTestFigureOptionListener("Test comm 1");
+            SelectTestFigureOptionListener selectSecondTestFigureOptionListener3 = new SelectTestFigureOptionListener("Test comm 2");
+            SelectTestFigureOptionListener selectSecondTestFigureOptionListener4 = new SelectTestFigureOptionListener("Test comm 3");
 		
             context.addTest("Figure Joe 1", selectFirstTestFigureOptionListener);
             context.addTest("Figure Joe 2", selectSecondTestFigureOptionListener1);
-            context.addTest("Test comm", selectSecondTestFigureOptionListener1);
+            context.addTest("Quadrangle", selectSecondTestFigureOptionListener2);
+            context.addTest("Square", selectSecondTestFigureOptionListener3);
+            context.addTest("Triangle", selectSecondTestFigureOptionListener4);
 	}
 
 	/**
