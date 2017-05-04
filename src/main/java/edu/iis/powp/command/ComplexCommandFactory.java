@@ -12,9 +12,10 @@ public class ComplexCommandFactory {
         command.addAll(Arrays.asList (
                 new CommandSetPosition(x, y),
                 new CommandDrawLineToPosition(x + size, y),
+                new CommandDrawLineToPosition(x + size, y + size),
                 new CommandDrawLineToPosition(x, y + size),
-                new CommandDrawLineToPosition(x - size, y),
-                new CommandDrawLineToPosition(x, y - size)
+                new CommandDrawLineToPosition(x, y)
+
         ));
         return new ComplexCommand(command);
     }

@@ -4,8 +4,9 @@ import edu.iis.client.plottermagic.IPlotter;
 import java.util.List;
 
 public class ComplexCommand implements PlotterCommand {
-    List<PlotterCommand> command;
+    private List<PlotterCommand> command;
     public ComplexCommand(List<PlotterCommand> command) {
+        super();
         this.command = command;
     }
 
